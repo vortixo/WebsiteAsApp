@@ -5,7 +5,10 @@ plugins {
 
 android {
     namespace = "com.sharafat.website"
-    compileSdk = 34
+       compileSdk = 34  // Для Kotlin DSL
+       // ИЛИ
+       compileSdkVersion(34)  // Альтернативный вариант
+   }
 
     defaultConfig {
         applicationId = "com.goapp.lumomedia"
