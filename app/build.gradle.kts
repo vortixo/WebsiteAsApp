@@ -1,6 +1,3 @@
-plugins {
-    alias(libs.plugins.androidApplication)
-}
 
 android {
     namespace = "com.sharafat.website"
