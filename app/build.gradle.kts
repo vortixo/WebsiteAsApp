@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid) // Добавляем плагин Kotlin
+    id("com.android.application") version "7.4.2" // Java 11 compatible version
+    id("org.jetbrains.kotlin.android") version "1.8.22"
 }
 
 android {
