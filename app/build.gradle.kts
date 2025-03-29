@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sharafat.website"
+        applicationId = "com.goapp.lumomedia"
         minSdk = 24
         targetSdk = 34
         versionCode = 2
