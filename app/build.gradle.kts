@@ -11,7 +11,7 @@ android {
    }
 
     defaultConfig {
-        applicationId = "com.goapp.lumomedia"
+        applicationId = "com.vortixo.helldiverscompanion"
         minSdk = 24
         targetSdk = 34
         versionCode = 2
